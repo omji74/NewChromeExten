@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Title Grabber",
+    "description": "Picks up the title of the current tab and displays it in the pop-up.",
+    "version": "1.0",
+    "permissions": ["tabs"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    }
+  }
+  
